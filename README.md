@@ -35,7 +35,7 @@ Here are the following features of the app:
 - [React] - ⚛️ Frontend Framework using javascript 
 - [Node.js] - 🧠 server side scripting using javascript  
 
-## Setup Moble App
+## Setup Mobile App
 In my case, I've developed in an android emulator by downloading Android Studio (https://developer.android.com/studio). Although it's also possible to use an ios emulator if you're using a mac via XCode (https://apps.apple.com/us/app/xcode/id497799835?mt=12). Furthermore, once you're done setting up your emulator or an actual physical device, then follow the setup below to run the flutter app. Also make sure you have flutter installed (https://flutter.dev/docs/get-started/install).Here's how to install:
 
 
@@ -48,11 +48,11 @@ $ flutter pub get
 
 Since this is connected to a firebase client, we need to get the **configuration file** from firebase. Follow the process below:
 
-1.) Go to https://console.firebase.google.com/
-2.) Select your project
-3.) On the left menu, click on settings > project settings
-4.) Add an app or download the google-services.json file under the *Your Apps* section.
-5.) Copy the **google-services.json** to the following path *android/app* if android or ios depending on your emulator. (not sure for ios, just follow the instructions in firebase)
+1. Go to https://console.firebase.google.com/
+2. Select your project
+3. On the left menu, click on settings > project settings
+4. Add an app or download the google-services.json file under the *Your Apps* section.
+5. Copy the **google-services.json** to the following path *android/app* if android or ios depending on your emulator. (not sure for ios, just follow the instructions in firebase)
 
 
 After doing so, you can run the app on your favorite emulator or physical mobile phone.
