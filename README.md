@@ -7,19 +7,56 @@ Guiding the learners today, to form the innovators of tomorrow.
 
 ## Table of contents
 * [General info](#general-info)
-* [Setup Web App](#setup_web_app)
+* [Mobile App Tech](#mobile-app-tech)
+* [Web App Tech](#web-app-tech)
+* [Setup Web App](#setup-web-app)
 * [How to use](#how-to-tuse)
 
 ## General info
 This project is composed of two parts: The Mobile App built using Flutter and Firebase, and the
-Web App built uisng React, Node.js, and MongoDB and deployed using the Google Cloud Platform.
+Web App built using React, Node.js, and MongoDB and deployed using the Google Cloud Platform.
+Here are the following features of the app:
+
+- Sign Up as a tutor or as a student
+- Online booking of tutors by students
+- Choose your time, duration, and mode of meetup (online)
+- ✨Easy, Affordable, and Convenient ✨
+
+## Mobile App Tech
+- [Flutter] - 💯 Software Framework for building ios and android apps in one source code! 
+- [Android Studio] - 🤖 For creating an Android Phone Emulator
+- [Firebase] - 🔥 Google's Backend Framework for making server side development easier (no complex code)
+- [Express] - 🎉 fast node.js network app framework (used in the server side of the web app)
+
+## Web App Tech
+- [MongoDB] - 🌱 Google's NoSQL database for quering json-like data responses
+- [Express] - 🎉 fast node.js network app framework 
+- [React] - ⚛️ Frontend Framework using javascript 
+- [Node.js] - 🧠 server side scripting using javascript  
+
 
 ## Setup Web App
 To run this project, make sure you have npm installed and perhaps installed react client as well. Also, since this is built using the NoSQL database, MongoDB, provision a database on MongoDB Atlas (https://www.mongodb.com/cloud/atlas) or by install MongoDB in your local machine. Follow the tutorial by installing MongoDB Compass (https://docs.mongodb.com/guides/server/install/).
 
+Before you try to run the app, make sure you set up the following environment variables to ensure you're connected to your database. So first create a ==**.env**== file in the root of your web app directory. 
+
+Then add the following by replacing the caps texts with actual values.
+
+```sh
+MONGO_URI=
+SESSION_SECRET=
+SECRET_OR_KEY=
+saltRounds=
+NODE_ENV=
 ```
+
+`SESSION_SECRET and SECRET_OR_KEY` are strings of your choice (with no quotes), `saltRounds` is an integer (preferably between 5 to 15 exclusive) and `NODE_ENV` may be either **development** or **production**
+
+After setting up your ==**.env**== file, you can proceed with the commands below.
+
+```sh
 $ git clone https://github.com/HansGabriel/Magisterium.git
-$ cd Magisterium
+$ cd MagisteriumWebApp
 $ npm install
 $ cd client
 $ npm install 
@@ -28,7 +65,17 @@ $ cd ..
 $ npm run start
 ```
 
-The following instructions will open the app 
+The following instructions will open the app. You can type [localhost:8080](localhost.8080) in your favorite browser to start using the app. 
+
+```sh
+127.0.0.1:8000
+```
+
+or 
+
+```sh
+localhost:8000
+```
 
 
 ## How to use
