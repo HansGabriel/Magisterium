@@ -1,0 +1,2 @@
+[0713/114550.066:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/163126.262:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
