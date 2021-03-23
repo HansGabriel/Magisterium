@@ -1,5 +1,5 @@
-name: starter_architecture_flutter_firebase
-description: A new Flutter project.
+name: magisterium_mobile_app
+description: Guiding the learners today, to form the innovators of tomorrow.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -49,6 +49,7 @@ dependencies:
   state_notifier: ^0.7.0
   http: ^0.13.0
   meta: ^1.3.0
+  change_app_package_name: ^0.1.2
 
 dev_dependencies:
   flutter_driver:

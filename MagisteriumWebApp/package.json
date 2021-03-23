@@ -1,7 +1,7 @@
 {
-  "name": "tutorup",
+  "name": "magisterium_web_app",
   "version": "1.0.0",
-  "description": "Social Network for University of Portland students to find tutors",
+  "description": "Guiding the learners today, to form the innovators of tomorrow.",
   "main": "server.js",
   "engines": {
     "node": ">=10.0"
@@ -13,12 +13,11 @@
     "client-install": "npm install --prefix client",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "dropdb": "node drop.db.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TutorUP/TutorUP-App.git"
+    "url": "https://github.com/HansGabriel/Magisterium.git"
   },
   "keywords": [
     "react",
@@ -27,12 +26,11 @@
     "mongo",
     "node"
   ],
-  "author": "Danh Nguyen",
-  "license": "MIT",
+  "author": "IC Tech",
   "bugs": {
-    "url": "https://github.com/TutorUP/TutorUP-App/issues"
+    "url": "https://magistrum-308411.et.r.appspot.com/"
   },
-  "homepage": "https://github.com/TutorUP/TutorUP-App#readme",
+  "homepage": "https://magistrum-308411.et.r.appspot.com/",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@sendgrid/mail": "^6.3.1",

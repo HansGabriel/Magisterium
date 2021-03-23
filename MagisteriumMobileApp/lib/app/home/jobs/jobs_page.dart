@@ -1,21 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/job_entries/job_entries_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/jobs/edit_job_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/jobs/job_list_tile.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/jobs/list_items_builder.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/models/job.dart';
+import 'package:magisterium_mobile_app/app/home/job_entries/job_entries_page.dart';
+import 'package:magisterium_mobile_app/app/home/jobs/edit_job_page.dart';
+import 'package:magisterium_mobile_app/app/home/jobs/job_list_tile.dart';
+import 'package:magisterium_mobile_app/app/home/jobs/list_items_builder.dart';
+import 'package:magisterium_mobile_app/app/home/models/job.dart';
 import 'package:alert_dialogs/alert_dialogs.dart';
-import 'package:starter_architecture_flutter_firebase/app/top_level_providers.dart';
-import 'package:starter_architecture_flutter_firebase/constants/strings.dart';
+import 'package:magisterium_mobile_app/app/top_level_providers.dart';
+import 'package:magisterium_mobile_app/constants/strings.dart';
 import 'package:pedantic/pedantic.dart';
-import 'package:starter_architecture_flutter_firebase/services/firestore_database.dart';
-import 'package:starter_architecture_flutter_firebase/pages/home.dart';
+import 'package:magisterium_mobile_app/services/firestore_database.dart';
 import '../jobs/food_item_page.dart';
 import '../models/food_item.dart';
 import 'main_page.dart';
-import 'package:starter_architecture_flutter_firebase/pages/dashboard.dart';
 
 final jobsStreamProvider = StreamProvider.autoDispose<List<Job>>((ref) {
   final database = ref.watch(databaseProvider);

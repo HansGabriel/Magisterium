@@ -9,6 +9,7 @@ Guiding the learners today, to form the innovators of tomorrow.
 * [General info](#general-info)
 * [Mobile App Tech](#mobile-app-tech)
 * [Web App Tech](#web-app-tech)
+* [Setup Mobile App](#setup-mobile-app)
 * [Setup Web App](#setup-web-app)
 * [How to use](#how-to-tuse)
 
@@ -34,6 +35,17 @@ Here are the following features of the app:
 - [React] - ⚛️ Frontend Framework using javascript 
 - [Node.js] - 🧠 server side scripting using javascript  
 
+## Setup Moble App
+In my case, I've developed in an android emulator by downloading Android Studio (https://developer.android.com/studio). Although it's also possible to use an ios emulator if you're using a mac via XCode (https://apps.apple.com/us/app/xcode/id497799835?mt=12). Furthermore, once you're done setting up your emulator or an actual physical device, then follow the setup below to run the flutter app. Also make sure you have flutter installed (https://flutter.dev/docs/get-started/install).
+
+Since this is connected to a firebase client, we need to get the **configuration file** from firebase. Follow the process below:
+
+1.) Go to https://console.firebase.google.com/
+2.) Select your project
+3.) On the left menu, click on settings > project settings
+4.) Add an app or download the google-services.json file under the *Your Apps* section.
+5.) Copy the **google-services.json** to the following path *android/app* if android or ios depending on your emulator. (not sure for ios, just follow the instructions in firebase)
+
 
 ## Setup Web App
 To run this project, make sure you have npm installed and perhaps installed react client as well. Also, since this is built using the NoSQL database, MongoDB, provision a database on MongoDB Atlas (https://www.mongodb.com/cloud/atlas) or by install MongoDB in your local machine. Follow the tutorial by installing MongoDB Compass (https://docs.mongodb.com/guides/server/install/).
@@ -52,7 +64,7 @@ NODE_ENV=
 
 `SESSION_SECRET and SECRET_OR_KEY` are strings of your choice (with no quotes), `saltRounds` is an integer (preferably between 5 to 15 exclusive) and `NODE_ENV` may be either **development** or **production**
 
-After setting up your ==**.env**== file, you can proceed with the commands below.
+After setting up your **.env** file, you can proceed with the commands below.
 
 ```sh
 $ git clone https://github.com/HansGabriel/Magisterium.git

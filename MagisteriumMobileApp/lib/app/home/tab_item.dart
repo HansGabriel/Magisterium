@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:starter_architecture_flutter_firebase/constants/keys.dart';
-import 'package:starter_architecture_flutter_firebase/constants/strings.dart';
+import 'package:magisterium_mobile_app/constants/keys.dart';
+import 'package:magisterium_mobile_app/constants/strings.dart';
 
 enum TabItem { home, entries, account, book }
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/job_entries/format.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/models/entry.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/models/job.dart';
+import 'package:magisterium_mobile_app/app/home/job_entries/format.dart';
+import 'package:magisterium_mobile_app/app/home/models/entry.dart';
+import 'package:magisterium_mobile_app/app/home/models/job.dart';
 
 class EntryListItem extends StatelessWidget {
   const EntryListItem({

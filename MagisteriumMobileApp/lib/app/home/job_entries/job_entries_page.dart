@@ -4,17 +4,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/job_entries/entry_list_item.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/job_entries/entry_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/jobs/edit_job_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/jobs/list_items_builder.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/models/entry.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/models/job.dart';
+import 'package:magisterium_mobile_app/app/home/job_entries/entry_list_item.dart';
+import 'package:magisterium_mobile_app/app/home/job_entries/entry_page.dart';
+import 'package:magisterium_mobile_app/app/home/jobs/edit_job_page.dart';
+import 'package:magisterium_mobile_app/app/home/jobs/list_items_builder.dart';
+import 'package:magisterium_mobile_app/app/home/models/entry.dart';
+import 'package:magisterium_mobile_app/app/home/models/job.dart';
 import 'package:alert_dialogs/alert_dialogs.dart';
-import 'package:starter_architecture_flutter_firebase/app/top_level_providers.dart';
-import 'package:starter_architecture_flutter_firebase/routing/cupertino_tab_view_router.dart';
+import 'package:magisterium_mobile_app/app/top_level_providers.dart';
+import 'package:magisterium_mobile_app/routing/cupertino_tab_view_router.dart';
 import 'package:pedantic/pedantic.dart';
-import 'package:starter_architecture_flutter_firebase/constants/strings.dart';
+import 'package:magisterium_mobile_app/constants/strings.dart';
 
 class JobEntriesPage extends StatelessWidget {
   const JobEntriesPage({required this.job});

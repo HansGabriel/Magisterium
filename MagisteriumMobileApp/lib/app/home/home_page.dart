@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/account/account_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/cupertino_home_scaffold.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/entries/entries_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/jobs/jobs_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/jobs/book_page.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/tab_item.dart';
+import 'package:magisterium_mobile_app/app/home/account/account_page.dart';
+import 'package:magisterium_mobile_app/app/home/cupertino_home_scaffold.dart';
+import 'package:magisterium_mobile_app/app/home/entries/entries_page.dart';
+import 'package:magisterium_mobile_app/app/home/jobs/jobs_page.dart';
+import 'package:magisterium_mobile_app/app/home/jobs/book_page.dart';
+import 'package:magisterium_mobile_app/app/home/tab_item.dart';
 
 class HomePage extends StatefulWidget {
   @override

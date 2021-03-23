@@ -1,4 +1,4 @@
-package com.example.starter_architecture_flutter_firebase
+package com.new.magisterium_mobile_app.name
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
