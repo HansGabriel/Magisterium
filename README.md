@@ -114,43 +114,43 @@ Lastly we created an **Admin** category for employees of the company to edit sub
 
 1.) **Login Page**
 
-The app opens up with the login page and prompts the user to enter their email/username and their password.
+🧑‍💻 The app opens up with the login page and prompts the user to enter their email/username and their password.
 
 ![Login][Login]
 
 
-2.) **Register As Student**
+2.) 🔱 **Register As Student**
 
 As mentioned, users may opt to register as students to find and book the right tutor.
 
 ![RegisterStudent][RegisterStudent]
 
-3.) **Register As Tutor**
+3.) ⚜️ **Register As Tutor**
 
 Similarly, if you want to teach as a tutor, you can register as one then provide you details.
 
 ![RegisterTutor][RegisterTutor]
 
 
-4.) **Dashboard**
+4.) 💻 **Dashboard**
 
 Whether you're a student or tutor, you will have access to your own dashboard and you can provide details. For students, simple ones like school and grade are enough. For tutors, you must provide your attainment and other details to show you are really a qualified tutor. 
 
 ![Dashboard][Dashboard]
 
-5.) **Side Panel**
+5.) 🖥️ **Side Panel**
 
 There is also a neat side bar that allows you to navigate between pages such as **Profile**, **Booking**, **Appointments**, and **Logout** 
 
 ![SidePanel][SidePanel]
 
-6.) **Book**
+6.) ⌨️ **Book**
 
 As a student you can search for tutors via the **Booking Page** and you with the search and tagging option, you can lower your options and find the best fit for you. 
 
 ![Book][Book]
 
-7.) **BookDetails**
+7.) 💾 **BookDetails**
 
 Once you have chosen your tutor, you can book him/her and provide details such as **Duration**, **Meetup (Online/Location)**, **Time**, and **Subject** so that the tutor knows what he/she should prepare.
 
