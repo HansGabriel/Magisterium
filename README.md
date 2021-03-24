@@ -154,16 +154,16 @@ Lastly, you can book the tutor and and you can schedule the number of hours for 
 
  
 [Main_Page]:
-https://github.com/HansGabriel/Magister/blob/main/images/main.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg12.png
 [Details]:
-https://github.com/HansGabriel/Magister/blob/main/images/details.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/details.png
 [Info]:
-https://github.com/HansGabriel/Magister/blob/main/images/info.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/info.png
 [Login]:
-https://github.com/HansGabriel/Magister/blob/main/images/login.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/login.png
 [Review]:
-https://github.com/HansGabriel/Magister/blob/main/images/review.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/review.png
 [SignUp]:
-https://github.com/HansGabriel/Magister/blob/main/images/signup.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/signup.png
 [Book]:
-https://github.com/HansGabriel/Magister/blob/main/images/book.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/book.png
