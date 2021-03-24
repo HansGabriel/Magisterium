@@ -11,6 +11,7 @@ Guiding the learners today, to form the innovators of tomorrow.
 * [Web App Tech](#web-app-tech)
 * [Setup Mobile App](#setup-mobile-app)
 * [Setup Web App](#setup-web-app)
+* [How to use the Mobile App](#how-to-use-mobile-app)
 * [How to use the Web App](#how-to-use-web-app)
 
 ## General info
@@ -104,6 +105,21 @@ localhost:8000
 ```
 
 
+## How to use the Mobile App
+
+![Template1][Template1]
+
+The mobile app for this hackathon is only accessible for students as there is no signing up for tutors functionality (wasn't able to finish up the whole functionality for this time period 😢). Anyways the mobile app allows students to Sign In or Register and directly find the tutor they want and book them. Booking is as simple as giving your time details and adding a 💌 message to the 👨‍🏫 tutor.
+
+![Template2][Template2]
+
+This mobile app was built using Flutter as it is easy to make designs and functionalities plus the advantage of doing a cross platform to 🍎 ios and 🤖 android makes it a great framework for mobile development. Also 🔥 firebase was used to supply the backend details and the app is also connected to the express server of the web app to fetch API's 📶.
+
+![Template3][Template3]
+
+Although this app works already, we unfortunately can't deploy it since the process for launching a mobile app requires 💸 payments and needs to ✅ verified after a long process. Anyways, we will show a demo of the mobile app in a video.
+
+
 ## How to use the Web App
 
 The app can be divided into three categories: **Students**, **Tutors**, and **Admins**. Users can sign up as students and find the right tutor for them by sorting them by *Subject*, *Degree*, or *Availability*. Students can also provide their profiles and details for their booking like: *Duration*, *Subject*, *Time*, etc...
@@ -175,3 +191,9 @@ https://github.com/HansGabriel/Magisterium/blob/main/media/mg5.png
 https://github.com/HansGabriel/Magisterium/blob/main/media/mg11.png
 [BookDetails]:
 https://github.com/HansGabriel/Magisterium/blob/main/media/mg8.png
+[Template1]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/template1.png
+[Template2]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/template2.png
+[Template3]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/template3.png
