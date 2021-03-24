@@ -11,7 +11,7 @@ Guiding the learners today, to form the innovators of tomorrow.
 * [Web App Tech](#web-app-tech)
 * [Setup Mobile App](#setup-mobile-app)
 * [Setup Web App](#setup-web-app)
-* [How to use](#how-to-tuse)
+* [How to use the Web App](#how-to-use-web-app)
 
 ## General info
 This project is composed of two parts: The Mobile App built using Flutter and Firebase, and the
@@ -104,7 +104,13 @@ localhost:8000
 ```
 
 
-## How to use
+## How to use the Web App
+
+The app can be divided into three categories: **Students**, **Tutors**, and **Admins**. Users can sign up as students and find the right tutor for them by sorting them by *Subject*, *Degree*, or *Availability*. Students can also provide their profiles and details for their booking like: *Duration*, *Subject*, *Time*, etc...
+
+For **Tutors**, they can register via the `Register As Tutor`, and provide their credentials and other details. They specify their majors and minors as well as their time of availability, subject strengths, etc...
+
+Lastly we created an **Admin** category for employees of the company to edit subjects and as well as profiles and users. This is to ensure that any activity is legal and would only involve booking for tutors. 
 
 1.) **Login Page**
 
@@ -113,57 +119,59 @@ The app opens up with the login page and prompts the user to enter their email/u
 ![Login][Login]
 
 
-2.) **Sign Up**
+2.) **Register As Student**
 
-In case you don't have an account yet, you may sign up by providing your email, username, and password.
+As mentioned, users may opt to register as students to find and book the right tutor.
 
-![SignUp][SignUp]
+![RegisterStudent][RegisterStudent]
 
-3.) **Main Page**
+3.) **Register As Tutor**
 
-After logging in, you get it your main page and you can start browsing for tutors or coaches. There are a variety or options and you can filter based on the subjects. 
+Similarly, if you want to teach as a tutor, you can register as one then provide you details.
 
-![Main][Main_Page]
+![RegisterTutor][RegisterTutor]
 
 
-4.) **Details**
+4.) **Dashboard**
 
-If you click one of the buttons, you can look at the details and the profile of the coach that you are looking for as well as the price.
+Whether you're a student or tutor, you will have access to your own dashboard and you can provide details. For students, simple ones like school and grade are enough. For tutors, you must provide your attainment and other details to show you are really a qualified tutor. 
 
-![Details][Details]
+![Dashboard][Dashboard]
 
-5.) **Info**
+5.) **Side Panel**
 
-Similarly, you can also look at their background information and bio to know more about the tutor you're interested in,
+There is also a neat side bar that allows you to navigate between pages such as **Profile**, **Booking**, **Appointments**, and **Logout** 
 
-![Info][Info]
+![SidePanel][SidePanel]
 
-6.) **Review**
+6.) **Book**
 
-You can also check the reviews and ratings of other people on that specific tutor to know about her/his quality.
-
-![Review][Review]
-
-7.) **Book**
-
-Lastly, you can book the tutor and and you can schedule the number of hours for you to meet with him/her.
+As a student you can search for tutors via the **Booking Page** and you with the search and tagging option, you can lower your options and find the best fit for you. 
 
 ![Book][Book]
+
+7.) **BookDetails**
+
+Once you have chosen your tutor, you can book him/her and provide details such as **Duration**, **Meetup (Online/Location)**, **Time**, and **Subject** so that the tutor knows what he/she should prepare.
+
+![BookDetails][BookDetails]
 
 
 
  
 [Main_Page]:
 https://github.com/HansGabriel/Magisterium/blob/main/media/mg12.png
-[Details]:
-https://github.com/HansGabriel/Magister/blob/main/images/details.png
-[Info]:
-https://github.com/HansGabriel/Magister/blob/main/images/info.png
+[Dashboard]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg9.png
+[SidePanel]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg6.png
 [Login]:
-https://github.com/HansGabriel/Magister/blob/main/images/login.png
-[Review]:
-https://github.com/HansGabriel/Magister/blob/main/images/review.png
-[SignUp]:
-https://github.com/HansGabriel/Magister/blob/main/images/signup.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg4.png
 [Book]:
-https://github.com/HansGabriel/Magister/blob/main/images/book.png
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg7.png
+[RegisterStudent]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg5.png
+[RegisterTutor]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg11.png
+[BookDetails]:
+https://github.com/HansGabriel/Magisterium/blob/main/media/mg8.png
